@@ -29,6 +29,7 @@ function Login() {
         <div className="login-page">
             <form onSubmit={loginSubmit}>
                 <h2>Đăng nhập</h2>
+                <hr className="colorgraph" />
                 <input type="email" name="email" required
                 placeholder="Email" value={user.email} onChange={onChangeInput} />
 
@@ -37,8 +38,9 @@ function Login() {
 
                 <div className="row">
                     <button type="submit">Đăng nhập</button>
-                    <Link to="/register">Đăng ký</Link>
+                    <Link to="/register"><button>Đăng ký</button></Link>
                 </div>
+                <Link to={'#'} className = {'text-center'}>Quên mật khẩu</Link>
             </form>
         </div>
     )

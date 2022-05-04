@@ -10,7 +10,7 @@ function DetailProduct() {
     const [products] = state.productsAPI.products
     const addCart = state.userAPI.addCart
     const [detailProduct, setDetailProduct] = useState([])
-
+    
     useEffect(() =>{
         if(params.id){
 
@@ -31,7 +31,7 @@ function DetailProduct() {
                         <h2>{detailProduct.title}</h2>
                         <h6>#id: {detailProduct.product_id}</h6>
                     </div>
-                    <span>{detailProduct.price} VNĐ</span>
+                    <span>  {detailProduct.price} VNĐ</span>
                     <p>{detailProduct.description}</p>
                     <p>{detailProduct.content}</p>
                     <p>Sold: {detailProduct.sold}</p>

@@ -1,0 +1,74 @@
+.foodter{
+  max-width: 1200px;
+  padding-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+}
+.row{
+  display: flex;
+}
+.col-3{
+  width: 33.333333%;
+}
+.left{
+  margin-left: 16px;
+}
+.left h2{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+.left p{
+  font-family: 'Font Awesome 5 Free';
+  line-height: 1.2rem;
+  text-align: inherit
+}
+.center{
+  margin-left: 16px;
+}
+.center h2{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+.img-foodter{
+  display: flex;
+  padding-bottom: 5px;
+}
+.img-foodter img{
+  width: 10%;
+}
+.text-img-foodter h4{
+  font-size: 17px;
+  margin-left: -36px;
+}
+.text-img-foodter p{
+  font-size: 15px;
+  margin-left: 23px;
+}
+.rigth p{
+  text-align: left;
+  line-height: 1.5rem;
+}
+span{
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.rigth h2{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+.foodter-bottom{
+  text-align: center;
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-right: 41px;
+    margin-left: 40px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}

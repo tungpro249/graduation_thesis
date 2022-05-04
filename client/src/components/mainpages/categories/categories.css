@@ -20,14 +20,14 @@
     height: 35px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #000;
 }
 .categories input{
     width: 210px;
 }
 .categories button{
     width: 70px;
-    background: #555;
+    background: #777;
     color: white;
     margin-left: 10px;
 }

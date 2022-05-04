@@ -30,6 +30,7 @@ function Register() {
         <div className="login-page">
             <form onSubmit={registerSubmit}>
                 <h2>Đăng ký</h2>
+                <hr className="colorgraph" />
                 <input type="text" name="name" required
                 placeholder="Name" value={user.name} onChange={onChangeInput} />
 
@@ -41,7 +42,7 @@ function Register() {
 
                 <div className="row">
                     <button type="submit">Đăng ký</button>
-                    <Link to="/login">Đăng nhập</Link>
+                    <Link to="/login"><button>Đăng nhập</button></Link>
                 </div>
             </form>
         </div>

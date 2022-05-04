@@ -5,6 +5,7 @@ import Loading from '../utils/loading/Loading'
 import axios from 'axios'
 import Filters from './Filters'
 import LoadMore from './LoadMore'
+import SliderShow from '../../slider/SliderShow'
 
 
 function Products() {
@@ -59,6 +60,7 @@ function Products() {
     if(loading) return <div><Loading /></div>
     return (
         <>
+        <SliderShow />
         <Filters />
         
         {

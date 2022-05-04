@@ -13,7 +13,7 @@ header .logo{
 }
 header a{
     text-transform: uppercase;
-    color: #555;
+    color: rgb(0, 0, 0);
 }
 header ul li{
     display: inline-block;
@@ -31,7 +31,7 @@ header ul li:hover{
     margin-right: 20px;
 }
 .cart-icon span{
-    background: crimson;
+    background: black;
     border-radius: 20px;
     color: white;
     position: absolute;
